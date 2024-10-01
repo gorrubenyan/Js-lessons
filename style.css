@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.bigBox{
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 2px;
+    margin: 50px auto;
+
+}
+.box{
+    border: 2px solid black ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 84px;
+}
